@@ -8,8 +8,8 @@ body {
 }
 
 @font-face{
-	font-family:'Eurostile';
-	src: url('css/fonts/eurostile.ttf');
+	font-family:'Eurostile, Arial';
+	src: url('../css/fonts/eurostile.TTF');
 	font-weight: normal;
 	font-style: normal;
 
