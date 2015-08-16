@@ -8,7 +8,7 @@ body {
 }
 
 @font-face{
-	font-family:'Eurostile', Arial;
+	font-family:'Eurostile';
 	src: url('../css/fonts/eurostile.TTF');
 	font-weight: normal;
 	font-style: normal;
@@ -60,7 +60,7 @@ body {
 	}
 
 	.navbar-brand{
-		font-family: Eurostile;
+		font-family: Eurostile, Arial;
 		font-size:32px;
 		color: #FFFFFF !important;
 		line-height: 32px;
@@ -126,10 +126,7 @@ hr.style-two {
 
 
 #intro{
-	/*background-color:#375CAB;*/
-	/*url('ui/pattern-4txn.png') #000000;*/
 	color: #FFFFFF;
-	/*margin-top: 80px;*/
 	text-align: center;
 	height: 100vh;
 }
@@ -141,12 +138,11 @@ hr.style-two {
 
 	#intro h1{
 		font-size: 72px;
-		font-family: Eurostile;
+		font-family: Eurostile, Arial;
 	}
 
 	#intro h2{
 		font-size: 40px;
-		/*font-family: Eurostile;*/
 	}
 
 
@@ -369,7 +365,7 @@ h2{
 }
 #footer span {
 	display:block;
-	font-family: Eurostile;
+	font-family: Eurostile, Arial;
 	text-align: center;
 }
 #footer a {
