@@ -9,7 +9,7 @@ body {
 
 @font-face{
 	font-family:'Eurostile';
-	src: url('../css/fonts/eurostile.ttf');
+	src: url('css/fonts/eurostile.ttf');
 	font-weight: normal;
 	font-style: normal;
 
