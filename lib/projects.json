@@ -1,0 +1,301 @@
+{
+    "projects": [
+        {
+            "title": "Pangolin: eLearning Course Framework",
+            "subtitle": "Uses HTML5 Canvas with a Flash Fallback",
+            "poster": {
+                "src": "content/pangolin/skin_kmi_400.png",
+                "alt":"Pangolin splash page"
+            },
+            "slides": [
+                {
+                    "src": "content/pangolin/splash_kmi_multiLang.png",
+                    "alt": "KMI Demo splash page",
+                    "caption": "Multiple languages"
+                },{
+                    "src": "content/pangolin/skin_at.png",
+                    "alt": "Abrasive Tech course skin",
+                    "caption": "Abrasive Technology"
+                },{
+                    "src": "content/pangolin/skin_bio.png",
+                    "alt": "Biomet course skin",
+                    "caption": "Biomet"
+                },{
+                    "src": "content/pangolin/interaction_bio_customer_quiz.png",
+                    "alt": "Biomet quiz interaction",
+                    "caption": "Quiz"
+                },{
+                    "src": "content/pangolin/skin_mu.png",
+                    "alt": "Medline University course skin",
+                    "caption": "Medline University"
+                },{
+                    "src": "content/pangolin/skin_icrc.png",
+                    "alt": "ICRC course skin",
+                    "caption": "ICRC"
+                },{
+                    "src": "content/pangolin/interaction_bio_drag.png",
+                    "alt": "Biomet drag and drop",
+                    "caption": "Drag and Drop Interaction"
+                },{
+                    "src": "content/pangolin/interaction_bio_place_in_order.png",
+                    "alt": "Biomet place in order",
+                    "caption": "Place in Order Interaction"
+                },{
+                    "src": "content/pangolin/interaction_icrc_bac.png",
+                    "alt": "ICRC BAC calculator",
+                    "caption": "BAC calculator"
+                },{
+                    "src": "content/pangolin/interaction_mu_point_and_click.png",
+                    "alt": "MU Point and Click",
+                    "caption": "Point and Click Interaction"
+                }
+            ],
+            "details":[
+                "HTML5 with focus on HTML Canvas",
+                "Responsive design",
+                "Javascript Revealing Module Pattern",
+                "Sass, jQuery, jQuery Mobile, & CreateJS",
+                "Cross-browser compatibility",
+                "Mobile First Design",
+                "All courses use HTML5 audio and video",
+                "Flash and Actionscript 3 for a fallback option"
+            ],
+            "client": [
+                "Biomet",
+                "Medline University",
+                "International Committee of the Red Cross",
+                "Abrassive Technology"
+            ],
+            "role": [
+                "Front-End Web Developer",
+                "@ KMI Learning"
+            ]
+
+        },
+        {
+            "title": "Welcome Gallery",
+            "subtitle": "An interacrtive course with live action video, CGI elements, and multiple languages",
+            "poster": {
+                "src": "content/welcomeGallery/bg1_400.png",
+                "alt":"Welcome Gallery splash page"
+            },
+            "details":[
+                "Flash and Actionscript 3",
+                "Multiple Interactive displays",
+                "Video transitions",
+                "Background loading for videos",
+                "Dynamic video player for welcome videos",
+                "Supports multiple languages"
+            ],
+            "client": [
+                "BG Group"
+            ],
+            "role": [
+                "Front-End Web Developer",
+                "@ KMI Learning"
+            ],
+            "slides": [
+                {
+                    "src": "content/welcomeGallery/bg4.png",
+                    "alt": "",
+                    "caption": "3D Rendered Environment"
+                },{
+                    "src": "content/welcomeGallery/bg2.png",
+                    "alt": "",
+                    "caption": "Player for Welcome videos"
+                },{
+                    "src": "content/welcomeGallery/bg3.png",
+                    "alt": "",
+                    "caption": "Interactive displays"
+                },{
+                    "src": "content/welcomeGallery/bg6.png",
+                    "alt": "",
+                    "caption": "Interactive Globe"
+                },{
+                    "src": "content/welcomeGallery/bg7.png",
+                    "alt": "",
+                    "caption": "Timeline of the company"
+                },{
+                    "src": "https://www.youtube.com/embed/C7IuNYoln_w",
+                    "alt": "youtube video",
+                    "caption": "Demo video"
+                }
+            ]
+
+        },
+        {
+            "title": "Interviewing eLearning Course",
+            "subtitle": "Uses HTML5 with CSS Animations",
+            "poster": {
+                "src": "content/interview/ie1_400.png",
+                "alt": "Interviewing splash page"
+            },
+            "details":[
+                "HTML5 and CSS3",
+                "Responsive design",
+                "jQuery and jPlayer",
+                "Cross-browser compatibility",
+                "Integrated HTML5 audio and video"
+            ],
+            "client": [
+                "Interview Edge"
+            ],
+            "role": [
+                "Front-End Web Developer",
+                "@ KMI Learning"
+            ],
+            "slides": [
+                {
+                    "src": "content/interview/ie5.png",
+                    "alt": "",
+                    "caption": "Animated Slide"
+                },{
+                    "src": "content/interview/ie2.png",
+                    "alt": "",
+                    "caption": "Quiz"
+                },{
+                    "src": "content/interview/ie3.png",
+                    "alt": "",
+                    "caption": "Drag and Drop Interaction"
+                },{
+                    "src": "content/interview/ie4.png",
+                    "alt": "",
+                    "caption": "Multiple Choice Question"
+                }
+            ]
+
+        },
+        {
+            "title": "DouglasAden.com",
+            "subtitle": "Dynamic image generating Photo Gallery",
+            "poster": {
+                "src": "content/douglasAden/douglasAden_400.png",
+                "alt":"Douglas Aden slash page"
+            },
+            "details":[
+                "PHP site",
+                "Dynamically generated based on server structure",
+                "Generates and saves thumbnails and web sized photos",
+                "Cross-browser compatibility"
+            ],
+            "client": [
+                "Douglas Aden"
+            ],
+            "role": [
+                "Front-end Developer and Designer"
+            ],
+            "link": "http://www.douglasaden.com",
+            "slides": [
+                {
+                    "src": "content/douglasAden/douglasSite_1.jpg",
+                    "alt": "",
+                    "caption": "Generates thumbnails when a page is viewed"
+                },{
+                    "src": "content/douglasAden/douglasSite_2.jpg",
+                    "alt": "",
+                    "caption": "Catagories based on server folder structure"
+                },{
+                    "src": "content/douglasAden/douglasSite_3.jpg",
+                    "alt": "",
+                    "caption": "Generates a web sized photo when a photo is viewed"
+                },{
+                    "src": "content/douglasAden/douglasSite_4.jpg",
+                    "alt": "",
+                    "caption": "Displays meta data from the image"
+                }
+            ]
+
+        },
+        {
+            "title": "Deep Sea Deli",
+            "subtitle": "Small Team Independent Game Project",
+            "poster": {
+                "src": "content/deepSeaDeli/deepSeaDeli_400.png",
+                "alt":"Deep Sea Deli splash page"
+            },
+            "details":[
+                "Created in Torque Game Builder",
+                "Written using Torque Script",
+                "Created customers and orders",
+                "Developed Order Checking process",
+                "3 person team"
+            ],
+            "client": [
+                "None"
+            ],
+            "role": [
+                "Programmer"
+            ],
+            "slides": [
+                {
+                    "src": "content/deepSeaDeli/deepSea_1.jpg",
+                    "alt": "",
+                    "caption": "Make sandwiches on your tusk"
+                },{
+                    "src": "content/deepSeaDeli/deepSea_4.jpg",
+                    "alt": "",
+                    "caption": "Complete orders while customers are happy"
+                },{
+                    "src": "content/deepSeaDeli/deepSea_3.jpg",
+                    "alt": "",
+                    "caption": "Purchase upgrades"
+                },{
+                    "src": "content/deepSeaDeli/deepSea_2.jpg",
+                    "alt": "",
+                    "caption": "Multiple background locations"
+                },{
+                    "src": "content/deepSeaDeli/deepSea_5.jpg",
+                    "alt": "",
+                    "caption": "Harder customers and more ingredients"
+                }
+            ]
+
+        },
+        {
+            "title": "Chromatica",
+            "subtitle": "Large Team Independent Game Project",
+            "poster": {
+                "src": "content/chromatica/chromo_400.png",
+                "alt":"Chromatica splash page"
+            },
+            "details":[
+                "Created in Torque Game Builder",
+                "Written using Torque Script",
+                "Created Main Character and abilities",
+                "Developed A.I. for all enemies",
+                "Developed Boss battles including a mirror image of main character"
+            ],
+            "client": [
+                "None"
+            ],
+            "role": [
+                "Lead Programmer"
+            ],
+            "slides": [
+                {
+                    "src": "content/chromatica/chromo_1.jpg",
+                    "alt": "",
+                    "caption": "The Main Character is controled by the keyboard and mouse"
+                },{
+                    "src": "content/chromatica/chromo_2.jpg",
+                    "alt": "",
+                    "caption": "The Game is based on color"
+                },{
+                    "src": "content/chromatica/chromo_3.jpg",
+                    "alt": "",
+                    "caption": "Cutscenes with voice actors"
+                },{
+                    "src": "content/chromatica/chromo_4.jpg",
+                    "alt": "",
+                    "caption": "A boss battle against a mirror image"
+                },{
+                    "src": "content/chromatica/chromo_5.jpg",
+                    "alt": "",
+                    "caption": "Bosses spawned additional AI"
+                }
+            ]
+
+        }
+    ]
+
+}
