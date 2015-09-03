@@ -20,13 +20,15 @@ loop through all nav links
 
     // Check the location of widow position and compare to achor points
     function checkLocation(event){
-        if ($(this).scrollTop() > $("#intro").outerHeight() - $("#header").outerHeight() ) {
+        var headerOffset = ($(".navbar-toggle").is(":visible"))? $(".navbar-header").outerHeight() : $("#header").outerHeight();
+
+        if ($(this).scrollTop() >= $("#intro").outerHeight() - headerOffset ) {
             $('#header').fadeIn();
         } else {
             $('#header').fadeOut();
         }
 
-        var currentScrollPos = $(document).scrollTop() + $("#header").outerHeight() ;
+        var currentScrollPos = $(document).scrollTop() + headerOffset ;
 
         $("#myNavbar li a").each(function(){
             var currentLink = $(this);
@@ -45,15 +47,20 @@ loop through all nav links
         event.preventDefault();
         var currentLink = $(this);
         var linkSection = $(currentLink.attr("href"));
+        var headerOffset = ($(".navbar-toggle").is(":visible"))? $(".navbar-header").outerHeight() : $("#header").outerHeight();
+        var linkSectionPos = linkSection.position().top - headerOffset;
 
         $("#myNavbar li a").removeClass("nav-active");
         currentLink.addClass("nav-active");
         $(document).off("scroll", checkLocation);
 
+        $("#myNavbar").collapse('hide');
+
         $('html, body').stop().animate({
-            'scrollTop': linkSection.position().top - $("#header").outerHeight()+2
+            'scrollTop': linkSectionPos
         }, 800, 'swing', function () {
             $(document).on("scroll", checkLocation);
+            checkLocation();
         });
 
     });
