@@ -332,7 +332,7 @@ h2{
   position: relative;
 }
 
-hr {
+.timeline hr {
   height: 10px;
   width: 100%;
   background-color: #6d6dff;
@@ -342,12 +342,12 @@ hr {
   z-index: 5;
 }
 
-.events {
+.timeline-events {
   position: absolute;
   z-index: 10;
 }
 
-.event {
+.timeline-event {
   background-color: #6d6dff;
   float: left;
   margin: 30px 2px;
@@ -360,11 +360,11 @@ hr {
   cursor: pointer;
 }
 
-.event:nth-child(odd) {
+.timeline-event:nth-child(odd) {
   top: 15px;
 }
 
-.event:nth-child(odd):after {
+.timeline-event:nth-child(odd):after {
   content: "";
   height: 0;
   width: 0;
@@ -376,7 +376,7 @@ hr {
   left: 2px;
 }
 
-.event:nth-child(odd):before {
+.timeline-event:nth-child(odd):before {
   content: "";
   height: 12px;
   width: 12px;
@@ -388,20 +388,20 @@ hr {
   left: 8px;
 }
 
-.event:nth-child(odd):hover:before, .event:nth-child(even):hover:before {
+.timeline-event:nth-child(odd):hover:before, .event:nth-child(even):hover:before {
   box-shadow: 0px 0px 5px #000;
   background-color: #333;
 }
 
-.event:nth-child(odd):hover, .event:nth-child(even):hover {
+.timeline-event:nth-child(odd):hover, .event:nth-child(even):hover {
   box-shadow: 0px 0px 5px #000;
 }
 
-.event:nth-child(even) {
+.timeline-event:nth-child(even) {
   top: 95px;
 }
 
-.event:nth-child(even):after {
+.timeline-event:nth-child(even):after {
   content: "";
   height: 0;
   width: 0;
@@ -413,7 +413,7 @@ hr {
   left: 2px;
 }
 
-.event:nth-child(even):before {
+.timeline-event:nth-child(even):before {
   content: "";
   height: 12px;
   width: 12px;
