@@ -4,10 +4,10 @@
 Load JSON data
 Loop through each project in the data
  create project html for each project
- create project heading
- create project content
-  create project details
-  create project carousel
+  create project heading
+  create project content
+   create project details
+   create project carousel
 Add project to #portfolio
 
 */
@@ -68,7 +68,7 @@ Add project to #portfolio
         // Close container and project
             html += '</div>';
             html += '</div>';
-            
+
         return html;
     }
 
