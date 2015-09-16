@@ -1,6 +1,7 @@
 {
     "projects": [
         {
+            "id":"pangolin",
             "title": "Pangolin: eLearning Course Framework",
             "subtitle": "Uses HTML5 Canvas with a Flash Fallback",
             "poster": {
@@ -73,6 +74,7 @@
 
         },
         {
+            "id":"welcome",
             "title": "Welcome Gallery",
             "subtitle": "An interacrtive course with live action video, CGI elements, and multiple languages",
             "poster": {
@@ -116,6 +118,7 @@
                     "alt": "",
                     "caption": "Timeline of the company"
                 },{
+                    "type": "embed",
                     "src": "https://www.youtube.com/embed/C7IuNYoln_w",
                     "alt": "youtube video",
                     "caption": "Demo video"
@@ -124,6 +127,7 @@
 
         },
         {
+            "id":"ie",
             "title": "Interviewing eLearning Course",
             "subtitle": "Uses HTML5 with CSS Animations",
             "poster": {
@@ -166,6 +170,7 @@
 
         },
         {
+            "id":"da",
             "title": "DouglasAden.com",
             "subtitle": "Dynamic image generating Photo Gallery",
             "poster": {
@@ -207,6 +212,7 @@
 
         },
         {
+            "id":"dsd",
             "title": "Deep Sea Deli",
             "subtitle": "Small Team Independent Game Project",
             "poster": {
@@ -252,6 +258,7 @@
 
         },
         {
+            "id":"chromatica",
             "title": "Chromatica",
             "subtitle": "Large Team Independent Game Project",
             "poster": {

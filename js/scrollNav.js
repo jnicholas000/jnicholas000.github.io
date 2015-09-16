@@ -65,26 +65,5 @@ loop through all nav links
 
     });
 
-    // Click event for Learn More buttons to expand and reveal project content
-    $(".learnBtn").on("click", function () {
-        //getting the next element
-        $content = $(this).closest(".container").find(".content");
-
-        //slide all the other open tabs to hide
-        $(".content").slideUp();
-        $(".learnBtn").html("Learn More");
-        //check if its already visible
-        if (!($content.is(":visible"))) {
-            //no - its hidden - open up the content
-            $content.slideToggle(500);
-            $(this).html("Close");
-        }
-    });
-
-    // Turn off carousel's automatically sliding
-    $('.carousel').carousel({
-     interval: false
-    });
-
 
 })();
