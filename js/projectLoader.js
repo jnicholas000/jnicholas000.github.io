@@ -19,9 +19,7 @@ Add project to #portfolio
 
     $.getJSON( jsonURL, function(data){
         // Loop through the JSON array retrieved
-        console.log("Success", data.projects);
         $.each(data.projects, function(key, val){
-            console.log("Where did i go wrong?");
             $("#portfolio").append(createProject(val, key));
         });
         setUI();
@@ -108,10 +106,7 @@ Add project to #portfolio
 
     function detailsLoop(len, obj){
         var html = "";
-            console.log("detailsLoop:", len, obj);
         $.each(obj, function(key, val){
-            console.log("detailsLoop loop", key, val);
-
             if( key == len-1 ){
                 html += '. '+val;
             }else{
