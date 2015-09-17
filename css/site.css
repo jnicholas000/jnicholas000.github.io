@@ -20,7 +20,7 @@ body {
 		transform: translateX(0);
 	}
 	to {
-		transform: translateX(-4024px);
+		transform: translateX(-297px);
 	}
 }
 
@@ -29,19 +29,14 @@ body {
 	bottom: 0px;
 	left: 0px;
 	height: 100%;
-	right:-4024px;
+	right:-297px;
 	background: url('ui/pattern-4txn.png') 0% 0% repeat;
 	position: fixed;
 	z-index: -1;
 
-	-webkit-animation-name: MOVE-BG;
-	-webkit-animation-duration: 180s;
-	-webkit-animation-timing-function: linear;
-	-webkit-animation-iteration-count: infinite;
-	-moz-animation-name: MOVE-BG;
-	-moz-animation-duration: 180s;
-	-moz-animation-timing-function: linear;
-	-moz-animation-iteration-count: infinite;
+	-webkit-animation: MOVE-BG linear 15s infinite;
+	-moz-animation: MOVE-BG linear 15s infinite;
+	animation: MOVE-BG linear 15s infinite;
 }
 
 
