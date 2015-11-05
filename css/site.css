@@ -213,6 +213,10 @@ hr.style-two {
 		font-size: 12px;
 	}
 
+	#about p{
+		margin-top: 40px;
+	}
+
 #contact{
 	font-size: 32px;
 	color: #FFFFFF;
