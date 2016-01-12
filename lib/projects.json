@@ -1,6 +1,66 @@
 {
     "projects": [
         {
+            "id":"sota",
+            "title": "Creating Effective Teams Game",
+            "subtitle": "A game to demonstrate Gamification in eLearning using Javascript and HTML5 Canvas",
+            "poster": {
+                "src": "content/sota/sota_400.png",
+                "alt":"Team Game Placment"
+            },
+            "slides": [
+                {
+                    "src": "content/sota/sota1.png",
+                    "alt": "Team Game splash page",
+                    "caption": "Creating Effective Teams Game"
+                },{
+                    "src": "content/sota/sota2.png",
+                    "alt": "Character Selection Tutorial",
+                    "caption": "Character Selection Tutorial"
+                },{
+                    "src": "content/sota/sota3.png",
+                    "alt": "Character Selection",
+                    "caption": "Character Selection"
+                },{
+                    "src": "content/sota/sota4.png",
+                    "alt": "Initial Character Placement",
+                    "caption": "Initial Character Placement"
+                },{
+                    "src": "content/sota/sota5.png",
+                    "alt": "First of Four Stages",
+                    "caption": "First of Four Stages"
+                },{
+                    "src": "content/sota/sota6.png",
+                    "alt": "Using an action",
+                    "caption": "Using an Action to counter Today's Issue"
+                },{
+                    "src": "content/sota/sota7.png",
+                    "alt": "Stage Score",
+                    "caption": "Score for this Stage"
+                },{
+                    "src": "content/sota/sota8.png",
+                    "alt": "Leaderboard",
+                    "caption": "Leaderboard of users in the database"
+                }
+            ],
+            "details":[
+                "HTML5 with focus on HTML Canvas",
+                "Responsive design",
+                "Sass, jQuery, & CreateJS",
+                "Cross-browser compatibility",
+                "Mobile First Design",
+                "Minor PHP with MySQL database"
+            ],
+            "client": [
+                "Demonstration for State of Ohio Training Association SOTA"
+            ],
+            "role": [
+                "Front-End Web Developer & Game Designer",
+                "@ KMI Learning"
+            ]
+
+        },
+        {
             "id":"pangolin",
             "title": "Pangolin: eLearning Course Framework",
             "subtitle": "Uses HTML5 Canvas with a Flash Fallback",
