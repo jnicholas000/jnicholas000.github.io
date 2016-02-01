@@ -118,8 +118,15 @@ hr.style-two {
 		font-family: Eurostile, Arial;
 	}
 
-	#intro h2{
+	#intro .role{
 		font-size: 40px;
+		margin: 20px 0 10px;
+		line-height:1.1;
+	}
+
+	#intro p{
+		margin: 0;
+
 	}
 
 
@@ -195,6 +202,14 @@ hr.style-two {
 		margin: 15px 0;
 	}
 
+	.content-details div{
+		margin: 0px 0px 10px;
+	}
+
+	.content-details p{
+		margin: 0;
+	}
+
 	.content-details-heading{
 		font-weight: bold;
 	}
@@ -229,6 +244,10 @@ hr.style-two {
 }
 
 h2{
+	font-size: 36px;
+}
+
+h3{
 	font-size: 20px;
 }
 

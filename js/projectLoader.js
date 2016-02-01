@@ -45,8 +45,8 @@ Add project to #portfolio
             html += '<img src="'+obj.poster.src+'" alt="'+obj.poster.alt+'" />';
             html += '</div>';
             html += '<div class="col-xs-12 col-sm-7 textCon">';
-            html += '<h1>'+obj.title+'</h1>';
-            html += '<h2>'+obj.subtitle+'</h2>';
+            html += '<h2>'+obj.title+'</h2>';
+            html += '<h3>'+obj.subtitle+'</h3>';
             html += '<button class="btn btn-lg btn-primary learnBtn" type="button">Learn More</button>';
             html += '</div>';
             if(index%2 == 0){
@@ -76,22 +76,22 @@ Add project to #portfolio
     function createDetails(obj, index){
 
         var html = '<div class="col-sm-6 col-md-4 visible-sm visible-md visible-lg content-details">';
-            html += '<p>';
-            html += '<span class="content-details-heading">Details: </span><br/>';
+            html += '<div>';
+            html += '<p class="content-details-heading">Details: </p>';
 
             html += detailsLoop(obj.details.length, obj.details);
-            html += '</p>';
-            html += '<p>';
-            html += '<span class="content-details-heading">Client: </span><br/>';
+            html += '</div>';
+            html += '<div>';
+            html += '<p class="content-details-heading">Client: </p>';
 
             html += detailsLoop(obj.client.length, obj.client);
-            html += '</p>';
-            html += '<p>';
-            html += '<span class="content-details-heading">Role: </span><br/>';
+            html += '</div>';
+            html += '<div>';
+            html += '<p class="content-details-heading">Role: </p>';
 
             html += detailsLoop(obj.role.length, obj.role);
 
-            html += '</p>';
+            html += '</div>';
 
         if(obj.link){
             html += '<p>';
@@ -107,11 +107,7 @@ Add project to #portfolio
     function detailsLoop(len, obj){
         var html = "";
         $.each(obj, function(key, val){
-            if( key == len-1 ){
-                html += '. '+val;
-            }else{
-                html += '. '+val+' <br/>';
-            }
+            html += '<p>. '+val+'</p>';
         });
         return html;
     }
